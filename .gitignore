@@ -1,5 +1,5 @@
 HELP.md
-/springboot-simple1/target/
+/springboot-simple/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -27,3 +27,5 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+*/target/
+

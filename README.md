@@ -30,6 +30,7 @@
 ## 二、特性
 
 - **MybatisCodeGenerator** 类可以生成 mybatis-plus的基本代码和数据库实体类。
+- **controller** 统一异常处理。
 
 ## 三、项目运行
 
