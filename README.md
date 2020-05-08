@@ -19,7 +19,15 @@
 
 **[redis](https://redis.io/)** ：好用快速的key-value 数据库。
 
-### 模块功能：
+#### 其他未整合样例项目
+
+> 项目中有对应的代码博客地址 
+
+[rabbitMQ](https://github.com/yangyu0829/Springboot-RabbitMQ-demo)    消息队列
+
+[security+jwt](https://github.com/yangyu0829/Springboot-Jwt-demo)  权限控制
+
+[aop + annotation ](https://github.com/yangyu0829/Springboot-aop-demo)  aop结合自定义注解
 
 使用父模块对子模块的依赖做版本控制。
 

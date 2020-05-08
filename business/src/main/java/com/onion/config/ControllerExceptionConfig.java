@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class ControllerExceptionConfig {
 
     @ExceptionHandler(value = BusinessException.class)
-    public Res<String> baseExceptionHandler(BusinessException e) {
+    public Res<String> businessExceptionHandler(BusinessException e) {
         return Res.build().code(e.getCode()).msg(e.getMsg()).data(e.getMsg());
     }
 
