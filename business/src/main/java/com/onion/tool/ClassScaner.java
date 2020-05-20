@@ -37,7 +37,7 @@ public class ClassScaner implements ResourceLoaderAware {
                                   Class<? extends Annotation>... annotations) {
         ClassScaner cs = new ClassScaner();
 
-        if(ArrayUtils.isNotEmpty(annotations)) {
+        if (ArrayUtils.isNotEmpty(annotations)) {
             for (Class anno : annotations) {
                 cs.addIncludeFilter(new AnnotationTypeFilter(anno));
             }
@@ -119,9 +119,11 @@ public class ClassScaner implements ResourceLoaderAware {
         for (TypeFilter tf : this.includeFilters) {
             if (tf.match(metadataReader, this.metadataReaderFactory)) {
                 return true;
+            } else {
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     public static void main(String[] args) {
