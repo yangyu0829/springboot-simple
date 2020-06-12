@@ -55,7 +55,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-            <scope>provider</scope>
         </dependency>
 
         <!-- redis -->
